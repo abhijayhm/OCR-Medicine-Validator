@@ -1,0 +1,41 @@
+{
+    "tablets": [
+      {
+        "name": "Paracetamol",
+        "marketer": "ABC Pharma",
+        "expiry_date": ""
+      },
+      {
+        "name": "Amoxicillin",
+        "marketer": "XYZ Pharma",
+        "expiry_date": ""
+      },
+      {
+        "name": "Ibuprofen",
+        "marketer": "HealthMed Corp",
+        "expiry_date": ""
+      },
+      {
+        "name": "Cetirizine",
+        "marketer": "MediCare Ltd",
+        "expiry_date": ""
+      },
+      {
+        "name": "Azithromycin",
+        "marketer": "PharmaTech",
+        "expiry_date": ""
+      },
+      {
+        "name": "Nimesulide Tablets 109mg",
+        "marketer": "Askon Health Care",
+        "expiry_date": ""
+      },
+      {
+        "name": "Pirfenidone Tablets IP 200 mg",
+        "marketer": "CIPLA Ltd.",
+        "expiry_date": ""
+      }
+      
+    ]
+  }
+  

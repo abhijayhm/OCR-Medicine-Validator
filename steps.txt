@@ -1,0 +1,35 @@
+1. Extract the zip file to a folder of your choice.
+
+2. Navigate to the extracted folder.
+
+3. Hold Shift, right-click in the folder, and select "Open Command Window Here" or "Open PowerShell Window Here."
+
+4. Create a virtual environment:
+   python -m venv sih
+
+5. Activate the virtual environment:
+   - On Windows:
+     sih\Scripts\activate
+   - On Mac/Linux:
+     source sih/bin/activate
+
+6. Install dependencies:
+   pip install -r requirements.txt
+
+7. Install Tesseract by referring to the solution here:
+   https://stackoverflow.com/questions/50951955/pytesseract-tesseractnotfound-error-tesseract-is-not-installed-or-its-not-i
+
+8. Signup on HuggingFace and generate an access token:
+   https://huggingface.co/docs/hub/en/security-tokens
+
+9. Install the Hugging Face Hub CLI and login:
+   pip install huggingface_hub
+   huggingface-cli login
+   (Enter your generated access token when prompted.)
+
+10. Replace the generated HuggingFace token in the code where applicable.
+
+11. In the same activated command window, start the project:
+    python app.py
+
+12. Open the 127.0.0.1 link mentioned in the console to access the application.
